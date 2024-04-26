@@ -1,0 +1,52 @@
+.Banner {
+    width: 100%;
+}
+
+.Banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.menu-category {
+    margin-bottom: 30px;
+}
+
+.menu-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item:hover {
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+h2 {
+    color: #dc3545;
+    font-size: 24px;
+}
+
+h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #dc3545;
+}
